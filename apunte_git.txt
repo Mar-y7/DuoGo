@@ -1,0 +1,29 @@
+cd duogo/
+git branch -m main (cambia el nombre de la rama principal)
+code .
+clear (limpiar)
+git status (muestra los cambios)
+git add . (confirma los cambios)
+git commit -m "mensaje que quiero dar" (sube los cambios realizados y escribir entre "" un mensaje para entender los cambios)
+git config --global user.name"____" (configura autor responsable usuario)
+git config --global user.email"____" (configura autor responsable email)
+git log (muestra todos los cambios realizados)
+
+lo que se crea en github se llama repositorio
+
+git remote add origin ___ nombre de la url (sabe donde ir guardando)
+git push -u main (sube a esa rama)
+control ñ (abre terminal)
+> cmd (abre el cmd en la terminal)
+>ionic g page pages/login (crea una nueva carpeta y dentro de ella otra más)
+>ionic serve (levanta el proyecto)
+
+
+page -> Front -> html
+	      -> scss
+     -> Bact -> _.ts(typescript)
+
+{{}} sirve para llamar a cualquier variable que esta en ___.___.ts
+
+cuando este todo listo:
+git push
